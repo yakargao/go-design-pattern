@@ -19,7 +19,7 @@
   ```
   /**
   * @Author: CiachoG
-* @Date: 2020/5/21 16:52
+  * @Date: 2020/5/21 16:52
   * @Description：
    */
   package main
@@ -58,7 +58,6 @@
   func (r *RedShapeDecorator)DrawWithColor()  {
   	
   }
+  
   ```
-  
-  
 

@@ -12,12 +12,12 @@
 
 - [适配器模式（Adapter Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Structural/Adapter%20.md)
 - [桥接模式（Bridge Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Structural/Bridge%20.md)
-- 过滤器模式（Filter、Criteria Pattern）
-- 组合模式（Composite Pattern）
-- 装饰器模式（Decorator Pattern）
-- 外观模式（Facade Pattern）
-- 享元模式（Flyweight Pattern）
-- 代理模式（Proxy Pattern）
+- [过滤器模式（Filter、Criteria Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Structural/Filter.md)
+- [组合模式（Composite Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Structural/Composite.md)
+- [装饰器模式（Decorator Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Structural/Decorator%20.md)
+- [外观模式（Facade Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Structural/Facade%20.md)
+- [享元模式（Flyweight Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Structural/Flyweight.md)
+- [代理模式（Proxy Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Structural/Proxy%20.md)
 
 ## 行为性模式
 
