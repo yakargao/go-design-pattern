@@ -5,7 +5,9 @@
  */
 package Behavioral
 
-import "log"
+import (
+	"log"
+)
 
 type Handler interface {
 	Handle(context string)
