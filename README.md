@@ -21,10 +21,10 @@
 
 ## 行为性模式
 
-- 责任链模式（Chain of Responsibility Pattern）
+- [责任链模式（Chain of Responsibility Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Behavioral/ChainOfResponsibility.md)
 - 命令模式（Command Pattern）
 - 解释器模式（Interpreter Pattern）
-- 迭代器模式（Iterator Pattern）
+- [迭代器模式（Iterator Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Behavioral/Iterator.md)
 - 中介者模式（Mediator Pattern）
 - 备忘录模式（Memento Pattern）
 - 观察者模式（Observer Pattern）
@@ -34,3 +34,16 @@
 - 模板模式（Template Pattern）
 - 访问者模式（Visitor Pattern）
 
+原则：
+
+| **开闭原则** | **里氏代换原则** | **依赖倒转原则** | **接口隔离原则** | **迪米特法则** | **合成复用原则** |
+| :----------- | ---------------- | ---------------- | ---------------- | -------------- | ---------------- |
+|              |                  |                  |                  |                |                  |
+|              |                  |                  |                  |                |                  |
+|              |                  |                  |                  |                |                  |
+|              |                  |                  |                  |                |                  |
+|              |                  |                  |                  |                |                  |
+|              |                  |                  |                  |                |                  |
+|              |                  |                  |                  |                |                  |
+|              |                  |                  |                  |                |                  |
+|              |                  |                  |                  |                |                  |
