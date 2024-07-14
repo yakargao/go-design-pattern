@@ -3,12 +3,11 @@
 * @Date: 2020/5/7 21:34
 * @Description：
  */
-package main
+package Creational
 
-type Cloneable  interface {
-	Clone()Cloneable
+type Cloneable interface {
+	Clone() Cloneable
 }
-
 
 type PrototypeManager struct {
 	prototypes map[string]Cloneable //可克隆对象集中管理

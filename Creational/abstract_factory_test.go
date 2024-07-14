@@ -3,10 +3,10 @@
 * @Date: 2020/5/7 20:30
 * @Description：
  */
-package main
+package Creational
 
 import "testing"
 
-func TestAbstract(t *testing.T)  {
+func TestAbstract(t *testing.T) {
 
 }

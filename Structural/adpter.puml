@@ -1,0 +1,23 @@
+@startuml
+interface Computer {
+  + InsertIntoLightningPort()
+}
+
+class Mac {
+  + InsertIntoLightningPort()
+}
+
+class Windows {
+  + insertIntoUSBPort()
+}
+
+class WindowsAdapter {
+  - windowMachine: Windows
+  + InsertIntoLightningPort()
+}
+
+Computer <|.. Mac
+Computer <|.. WindowsAdapter
+WindowsAdapter --> Windows
+
+@enduml

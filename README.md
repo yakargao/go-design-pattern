@@ -1,5 +1,23 @@
+## 设计原则
+
+目的：高内聚，低耦合
+
+### 1、单一职责
+
+### 2、开闭原则
+
+### 3、依赖倒置
+
+### 4、接口隔离
+
+### 5、合成复用：优先使用组合而不是继承
+
+### 6、迪米特法则：最小知道法则
+
+
 ## 创建型模式
-一种在创建对象的同时隐藏创建逻辑的方式，有==5==种
+一种在创建对象的同时隐藏创建逻辑的方式，有**5**种
+- 简单工厂模式
 - [工厂模式（Factory Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Creational/factory.go)
 - [抽象工厂模式（Abstract Factory Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Creational/abstractFactory.go)
 - [单例模式（Singleton Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Creational/singleton.go)
@@ -8,7 +26,7 @@
 
 ## 结构型模型
 
-关注类或者对象结合在一起形成更大的结构，大体上有类结构型模式和对象结构型模式，有==7==种
+关注类或者对象结合在一起形成更大的结构，大体上有类结构型模式和对象结构型模式，有**7**种
 
 - [适配器模式（Adapter Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Structural/Adapter%20.md)
 - [桥接模式（Bridge Pattern）](https://github.com/CiachoG/go-design-pattern/blob/master/Structural/Bridge%20.md)
@@ -37,13 +55,13 @@
 原则：
 
 | **开闭原则** | **里氏代换原则** | **依赖倒转原则** | **接口隔离原则** | **迪米特法则** | **合成复用原则** |
-| :----------- | ---------------- | ---------------- | ---------------- | -------------- | ---------------- |
-|              |                  |                  |                  |                |                  |
-|              |                  |                  |                  |                |                  |
-|              |                  |                  |                  |                |                  |
-|              |                  |                  |                  |                |                  |
-|              |                  |                  |                  |                |                  |
-|              |                  |                  |                  |                |                  |
-|              |                  |                  |                  |                |                  |
-|              |                  |                  |                  |                |                  |
-|              |                  |                  |                  |                |                  |
+|:---------|------------|------------|------------|-----------|------------|
+|          |            |            |            |           |            |
+|          |            |            |            |           |            |
+|          |            |            |            |           |            |
+|          |            |            |            |           |            |
+|          |            |            |            |           |            |
+|          |            |            |            |           |            |
+|          |            |            |            |           |            |
+|          |            |            |            |           |            |
+|          |            |            |            |           |            |

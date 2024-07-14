@@ -3,21 +3,35 @@
 * @Date: 2020/5/7 21:02
 * @Description：
  */
-package main
+package Creational
 
-import "sync"
+import (
+	"fmt"
+	"sync"
+)
 
-//Singleton 是单例模式类
-type Singleton struct{}
+// Singleton 是单例模式类
+type singleton struct{}
 
-var singleton *Singleton
+var instance *singleton
 var once sync.Once
 
-//GetInstance 用于获取单例模式对象
-func GetInstance() *Singleton {
+// GetInstance 用于获取单例模式对象
+func GetInstance() *singleton {
 	once.Do(func() {
-		singleton = &Singleton{}
+		instance = &singleton{}
 	})
 
-	return singleton
+	return instance
+}
+
+// 并发可能有问题的
+func GetInstanceV2() *singleton {
+	if instance == nil {
+		fmt.Println("create new")
+		instance = new(singleton)
+		return instance
+	}
+	fmt.Println("Single instance already created.")
+	return instance
 }
